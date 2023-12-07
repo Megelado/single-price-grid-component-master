@@ -21,8 +21,8 @@ main {
 }
 
 .card {
-    width: 350px;
-    height: 500px;
+    width: 280px;
+    height: 580px;
     margin: auto;
 }
 
@@ -30,28 +30,44 @@ main {
     background-color: white;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
+    height: 200px;
+}
+
+.propaganda h4 {
+    color: hsl(179, 62%, 43%);
+    margin: 10px;
+}
+
+.propaganda h5 {
+    color: hsl(71, 73%, 54%);
+    margin: 10px;
 }
 
 .propaganda p {
     color: hsl(218, 22%, 67%);
+    margin: 10px;
 }
 
 .assinatura {
     background-color: hsl(179, 62%, 43%);
     padding: 10px;
+    height: 180px;
 }
 
 .assinatura h4 {
     color: hsl(204, 43%, 93%);
+    margin: 10px;
 }
 
 .assinatura p {
     color: hsla(203, 44%, 93%, 0.866);
+    margin: 10px;
 }
 
 .preco {
     display: flex;
     align-items: center;
+    margin: 10px;
 }
 
 .preco h3 {
@@ -64,9 +80,30 @@ main {
     color: hsl(179, 60%, 53%);
 }
 
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    border: none;
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
 
 .sobre {
     background-color: hsla(179, 62%, 43%, 0.534);
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
+    height: 180px;
+}
+
+.sobre h4 {
+    color: hsl(204, 43%, 93%);
+    margin: 10px;
+}
+
+.sobre p {
+    color: hsla(203, 44%, 93%, 0.685);
+    margin: 10px;
+    text-align: left;
 }
