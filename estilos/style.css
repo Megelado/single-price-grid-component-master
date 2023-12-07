@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    margin: auto;
+}
+
+.propaganda {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.propaganda p {
+    color: hsl(218, 22%, 67%);
+}
+
+.assinatura {
+    background-color: hsl(179, 62%, 43%);
+    padding: 10px;
+}
+
+.assinatura h4 {
+    color: hsl(204, 43%, 93%);
+}
+
+.assinatura p {
+    color: hsla(203, 44%, 93%, 0.866);
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+}
+
+.preco h3 {
+    padding-right: 10px;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.5em;
+}
+
+.preco strong {
+    color: hsl(179, 60%, 53%);
+}
+
+
+.sobre {
+    background-color: hsla(179, 62%, 43%, 0.534);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
