@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 700px) {
+    .card {
+        width: 600px;
+        height: 400px;
+    }
+
+    .propaganda {
+        height: 140px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .assinatura {
+        border-bottom-left-radius: 10px;
+    }
+
+    .sobre {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+}
+
